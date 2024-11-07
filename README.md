@@ -3,40 +3,60 @@
 [![NPM version](https://img.shields.io/npm/v/@tiga/tiga-components.svg?style=flat)](https://npmjs.org/package/@tiga/tiga-components)
 [![NPM downloads](http://img.shields.io/npm/dm/@tiga/tiga-components.svg?style=flat)](https://npmjs.org/package/@tiga/tiga-components)
 
-A react library developed with dumi
 
-## Usage
+## 介绍
+基于dimu搭建的react组件库
 
-TODO
 
-## Options
+## 自动化部署
+使用github自动化部署，参考dumi部署介绍
+https://d.umijs.org/guide/faq#%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3
 
-TODO
+## 部署参考
+https://juejin.cn/post/7260742402397569080
 
-## Development
+## 外部访问
+https://wangluweb.github.io/tiga-components/
 
-```bash
-# install dependencies
-$ yarn install
+## 启动项目
+``` bash
+$ yarn
 
-# develop library by docs demo
 $ yarn start
 
-# build library source code
-$ yarn run build
-
-# build library source code in watch mode
-$ yarn run build:watch
-
-# build docs
-$ yarn run docs:build
-
-# Locally preview the production build.
-$ yarn run docs:preview
-
-# check your project for potential problems
-$ yarn run doctor
 ```
+# 目录
+
+```bash
+# 介绍
+<root>
+ docs 组件库文档目录
+ index.md 组件库文档首页
+ guide.md 组件库其他文档路由（示意）
+ src 组件库源码目录
+ Foo 单个组件
+ index.tsx 组件源码
+ index.md 组件文档
+ index.ts 组件库入口文件
+ .dumirc.ts dumi 的配置文件
+ .fatherrc.ts father 的配置文件，用于组件库打包
+
+```
+
+# 发包
+```bash
+// 打包文件
+$ yarn prepublishOnly
+
+// 登录到npm
+$ npm login
+
+// 发包  发包前看下包名是否重复
+$ npm publish
+
+
+```
+
 
 ## LICENSE
 
