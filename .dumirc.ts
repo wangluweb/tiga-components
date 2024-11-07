@@ -5,4 +5,6 @@ export default defineConfig({
   themeConfig: {
     name: '@tiga/tiga-components',
   },
+  base: '/tiga-components/',
+  publicPath: '/tiga-components/',
 });
