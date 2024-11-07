@@ -1,7 +1,7 @@
-# tiga-components
+# @tiga/tiga-components
 
-[![NPM version](https://img.shields.io/npm/v/tiga-components.svg?style=flat)](https://npmjs.org/package/tiga-components)
-[![NPM downloads](http://img.shields.io/npm/dm/tiga-components.svg?style=flat)](https://npmjs.org/package/tiga-components)
+[![NPM version](https://img.shields.io/npm/v/@tiga/tiga-components.svg?style=flat)](https://npmjs.org/package/@tiga/tiga-components)
+[![NPM downloads](http://img.shields.io/npm/dm/@tiga/tiga-components.svg?style=flat)](https://npmjs.org/package/@tiga/tiga-components)
 
 
 ## 介绍
@@ -47,7 +47,6 @@ $ yarn start
 ```bash
 // 打包文件
 $ yarn prepublishOnly
-
 // 登录到npm
 $ npm login
 

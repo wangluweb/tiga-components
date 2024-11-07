@@ -1,5 +1,5 @@
 {
-  "name": "tiga-components",
+  "name": "@tiga/tiga-components",
   "version": "0.0.1",
   "description": "基于dimu搭建的react组件库",
   "keywords": [

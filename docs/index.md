@@ -18,4 +18,5 @@ features:
     emoji: 🚀
     description: Put ! description here
 ---
-tiga-components
+
+@tiga/tiga-components

@@ -8,8 +8,8 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "tiga-components": ["src"],
-      "tiga-components/*": ["src/*", "*"]
+      "@tiga/tiga-components": ["src"],
+      "@tiga/tiga-components/*": ["src/*", "*"]
     }
   },
   "include": [".dumirc.ts", "src/**/*"]
